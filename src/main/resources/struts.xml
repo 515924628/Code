@@ -10,7 +10,13 @@
 			<result>success.jsp</result>
 			<result name="input">index.jsp</result>
 			<result name="error">error.jsp</result>
+		</action>
 
+		<action name="add" class="com.zpyyf.action.TestAction" method="add">
+			<result name="add" type="chain">list</result>
+		</action>
+		<action name="list" class="com.zpyyf.action.TestAction" method="list">
+			<result name="list">list.jsp</result>
 		</action>
 	</package>
 </struts>

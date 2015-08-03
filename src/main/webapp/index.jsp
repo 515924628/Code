@@ -10,5 +10,6 @@
 	<input type="file" name="file"/>
 	<input type="submit"/>
 </form>
+<a href="test_add.action">asdf</a>
 </body>
 </html>
